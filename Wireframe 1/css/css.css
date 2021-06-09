@@ -1,0 +1,102 @@
+/********************************************************************
+*UNIDADES DE MEDIDAS RELATIVAS
+*
+*EM:
+*Esta medida se establece con relación al font-size mas cercano.
+*
+*REM:
+*Esta medida se establece con  relación al font-size con html.
+*********************************************************************/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%; /*Unidad General*/
+}
+
+section{
+    
+    width:37.5rem;
+    height:auto;
+    padding:3rem;
+}
+
+:root{
+  --color1:#F57B49;
+}
+.one{
+    background-color:#F57B49;
+    width:21rem;
+    height:28rem;
+    margin:center;
+    border-radius: 3rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.one:hover{
+    background-color:#F5B75F;
+    width:22rem;
+    height:29rem;
+    transition:0.3s;
+}
+
+.two{
+    background-color:#F57B49;
+    width:23rem;
+    height:13rem;
+    margin:center;
+    margin: 3rem 0rem 0.2rem 11rem;
+    border-radius:3rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.two:hover{
+    background-color:#F5B75F;
+    width:24rem;
+    height:14rem;
+    transition:0.3s;
+}
+
+
+.thre{
+    background-color:#F57B49;
+    width:21rem;
+    height:23rem;
+    margin:center;
+    margin: 3rem 1rem 0rem 8rem;
+    border-radius: 3rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.thre:hover{
+    background-color:#F5B75F;
+    width:22rem;
+    height:24rem;
+    transition:0.3s;
+}
+
+
+.four{
+   background-color:#F57B49;
+    width:25rem;
+    height:4rem;
+    margin:center;
+    margin: 3rem 2rem 0rem 11rem;
+    border-radius:4rem; 
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.four:hover{
+    background-color:#F5B75F;
+    width:26rem;
+    height:5rem;
+    transition:0.3s;
+}

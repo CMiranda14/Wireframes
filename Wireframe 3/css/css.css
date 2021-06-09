@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+:root{
+    --colorfondo:mediumaquamarine;
+    --color2: white;
+}
+
+body{
+    background-color:mediumaquamarine;
+}
+
+.one{
+    background-color:white;
+    margin:center;
+    width:6rem;
+    height:6rem;
+    margin:5rem;
+    border-radius:100%;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+    
+}
+.one:hover{
+    background-color:bisque;
+    width:7rem;
+    height:7rem;
+    transition:0.3s;
+}
+.two{
+    background-color:white;
+    margin:center;
+    width:32rem;
+    height:6rem;
+    margin:52rem 0rem 0rem 4rem ;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.two:hover{
+    background-color:bisque;
+    width:33rem;
+    height:7rem;
+    transition:0.3s;
+}

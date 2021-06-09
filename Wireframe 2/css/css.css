@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    width:37.5rem;
+    height:auto;
+    padding:3rem;
+    
+}
+:root{
+    --color1: #470094;
+    --color2:#12144F;
+    --color3:#F57B49;
+}
+
+.a{
+    background-color: #470094;
+    width:18rem;
+    height:18rem;
+    margin:center;
+    margin:3rem 9rem;
+    border-radius:100%;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.a:hover{
+    background-color:#2B8DB8;
+    width:19rem;
+    height:19rem;
+    transition:0.3s;
+}
+
+.e{
+    background-color: #470094;
+    width:35rem;
+    height:3.5rem;
+    margin:center;
+    margin:8rem 0rem 5rem 0rem; 
+    border-radius:5rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+.e:hover{
+    background-color:#2B8DB8;
+    width:36rem;
+    height:4.5rem;
+    transition:0.3s;
+}
+
+
+.i{
+    background-color: #12144F;
+    margin:center;
+    width:20rem;
+    height:2rem;
+    margin:2rem 5rem 0rem 7rem;
+    border-radius: 5rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.i:hover{
+    background-color:#2B8DB8;
+    width:21rem;
+    height:3rem;
+    transition:0.3s;
+}
+
+.o{
+    background-color: #12144F;
+    margin:center;
+    width:20rem;
+    height:2rem;
+    margin:2rem 5rem 0rem 7rem;
+    border-radius: 5rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s; 
+}
+
+.o:hover{
+    background-color:#2B8DB8;
+    width:21rem;
+    height:3rem;
+    transition:0.3s;
+}
+
+
+.u{
+    background-color: #F57B49;
+    width:32rem;
+    height:18rem;
+    margin:center;
+    margin:4rem 0rem 0rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 1rem #666;
+    transition:0.3s;
+}
+
+.u:hover{
+    background-color:#2B8DB8;
+    width:33rem;
+    height:19rem;
+    transition:0.3s;
+}
+
+.aa{
+    background-color: #12144F;
+    width:35rem;
+    height:4rem;
+    margin:center;
+    margin:4rem 0rem 0rem 0rem; 
+    border-radius:1rem; 
+    box-shadow: 0.2rem 0.2rem 1rem  #666;
+    transition:0.3s;
+}
+
+.aa:hover{
+    background-color:#2B8DB8;
+    width:36rem;
+    height:5rem;
+    transition:0.3s;
+}
